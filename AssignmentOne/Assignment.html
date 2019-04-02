@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="spider.jpg" />
+    <title>Online wholesale Order</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <style>
+        .IB {
+            display: inline-block;
+            margin-top: 3px;
+            vertical-align: -8px;
+        }
+
+        .seacrh {
+            display: inline-block;
+            width: 700px;
+            vertical-align: sub;
+        }
+
+        .c {
+            display: inline-block;
+        }
+
+        .box {
+            background-color: white;
+            height: 77px;
+            width: 1239px;
+            border-right: 1px solid rgb(233, 233, 233);
+            border-bottom: 1px solid rgb(233, 233, 233);
+        }
+
+        .a {
+            margin-left: 100px;
+        }
+
+        .b {
+            margin-left: 30px;
+            margin-right: 15px;
+            margin-top: 10px;
+        }
+
+        .seacrh {
+            vertical-align: super;
+            height: 40px;
+            font-size: 12px;
+            margin-right: 50px;
+        }
+
+        .box1 {
+            width: 250px;
+            float: left;
+            padding-top: 35px;
+            height: 815px;
+            border-top: 1px solid grey;
+            border-bottom: 1px solid rgb(233, 233, 233);
+            border-color: rgb(218, 218, 218);
+        }
+
+        .box2 {
+            width: 989px;
+            height: 850px;
+            border-top: 1px solid grey;
+            border-bottom: 1px solid rgb(233, 233, 233);
+            border-right: 1px solid rgb(233, 233, 233);
+            border-color: rgb(218, 218, 218);
+        }
+
+        .gry,
+        .box2 {
+            background-image: linear-gradient(to right top, #f2f6f7, #f3f6f7, #f3f5f7, #f4f5f6, #f4f5f6);
+        }
+
+        .gry {
+            color: grey;
+        }
+
+        .box3 {
+            margin-left: 35px;
+            margin-right: 35px;
+        }
+
+        table {
+            width: 918px;
+            height: 680px;
+            border-spacing: 0px 2px;
+        }
+
+        p {
+            line-height: 12px;
+            font-size: 14px;
+            color: grey;
+        }
+
+        button {
+            width: 175px;
+            height: 45px;
+            float: right;
+            font-size: 16px;
+            border: none;
+            background-color: #1ED215;
+            border-radius: 6px;
+            color: white;
+        }
+
+        tr {
+            height: 45px;
+            background-color: white;
+            font-size: 13px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .Thead {
+            font-size: 25px;
+            color: black;
+        }
+
+        * {
+            font-family: arial;
+        }
+
+        .col1 {
+            width: 71px;
+        }
+
+        .col2 {
+            width: 316px;
+            padding-left: 10px;
+        }
+
+        .col3 {
+            width: 85px;
+        }
+
+        .col4 {
+            width: 125px;
+        }
+
+        .col5 {
+            width: 106px;
+        }
+
+        .col6 {
+            width: 127px;
+        }
+
+        .col7 {
+            width: 150px;
+        }
+
+
+        .col1:hover {
+            color: rgb(0, 162, 255);
+        }
+
+        .col2:hover {
+            color: rgb(0, 162, 255);
+        }
+
+        .col3:hover {
+            color: rgb(0, 162, 255);
+        }
+
+        .col4:hover {
+            color: rgb(0, 162, 255);
+        }
+
+        .col5:hover {
+            color: rgb(0, 162, 255);
+        }
+
+        .col6:hover {
+            color: rgb(0, 162, 255);
+        }
+
+        .col7:hover {
+            color: rgb(0, 162, 255);
+        }
+
+        li {
+            font-size: 15px;
+            height: 35px;
+            padding-left: 45px;
+            padding-top: 20px;
+            margin-left: -50px;
+            margin-top: 10px;
+            color: grey;
+        }
+
+        li:hover {
+
+            border-left: 8px solid rgb(4, 151, 236);
+            background-color: rgba(195, 234, 250, 0.418);
+            font-size: 15px;
+            height: 35px;
+            padding-left: 37px;
+            padding-top: 20px;
+            margin-left: -50px;
+            margin-top: 10px;
+            color: rgb(0, 162, 255);
+        }
+
+        .abc {
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        input {
+            border: 0px;
+        }
+
+        ::-webkit-input-placeholder {
+            color: rgb(156, 156, 156);
+        }
+
+
+        .icon1 {
+            height: 45px;
+        }
+
+        .icon2 {
+            font-size: 25px;
+            vertical-align: baseline;
+            margin-left: 13px;
+            margin-right: -16px;
+        }
+
+        .icon3 {
+            border-radius: 35px;
+            width: 40px;
+            height: 40px;
+            margin-left: 15px;
+        }
+
+        p.c {
+            font-size: 26px;
+            color: black;
+            padding-top: 5px;
+        }
+
+        i {
+            padding-right: 25px;
+        }
+
+        .yy {
+            margin-top: 50px;
+        }
+
+        .High {
+            line-height: 10px;
+        }
+
+        .fas:hover {
+            color: rgb(0, 162, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+    <thead>
+        <div class="box">
+            <img src="ic11.png" class="IB b icon1 " />
+            <p class=" c">Sales Rep</p>
+            <span class="IB icon2">
+                <i class="fas fa-bars"></i>
+            </span>
+            <input type="search" class="seacrh" placeholder="&#x1f50d Seacrh" />
+            <img src="ic1.png" class="IB a icon3" />
+            <img src="icon3.png" class="IB icon3" />
+            <img src="icn1.jpg" class="IB icon3" />
+        </div>
+    </thead>
+    <tbody>
+        <div class="box1 c">
+            <ol>
+                <li>
+                    <i class="far fa-clone"></i>Dashboard</li>
+                <li>
+                    <i class="fab fa-opencart"></i>Customer Order</li>
+                <li>
+                    <i class="fab fa-first-order"></i>Wholesale Order</li>
+                <li>
+                    <i class="far fa-lemon"></i>View Affiliate Orders</li>
+
+            </ol>
+        </div>
+        <div class="box2 c">
+            <div class="box3">
+
+                <p class="Thead yy">Wholesale Order</p>
+
+                <p>You Can purchase product at special wholesale prices.</p>
+                <p>Select product in your cart, then come to this page and click
+                    <q>Create Invoice</q>
+                </p>
+
+                <table>
+                    <tr class="gry">
+                        <td colspan="5">
+                            <span class="Thead">Product List</span>
+                        </td>
+                        <td colspan="2">
+                            <button>Create Invoice</button>
+                        </td>
+                    </tr>
+                    <tr class="gry High">
+                        <td class="col1">Serial No</td>
+                        <td class="col2">Product Name</td>
+                        <td class="col3">Size</td>
+                        <td class="col4" class="center">Quanlity
+                            <i class="fas fa-sort"></i>
+                        </td>
+                        <td class="col5">Item Price
+                            <i class="fas fa-sort"></i>
+                        </td>
+                        <td class="col6">Discount Price
+                            <i class="fas fa-sort"></i>
+                        </td>
+                        <td class="col7">Extended Price
+                            <i class="fas fa-sort"></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="center">1</td>
+                        <td>Gangig Ganesh-LED colorfull</td>
+                        <td>Default Title</td>
+                        <td class="center">1</td>
+                        <td>Rs. 1000.00</td>
+                        <td class="center">-</td>
+                        <td>Rs. 1000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="center">2</td>
+                        <td>Gangig Ganesh-LED colorfull</td>
+                        <td>Default Title</td>
+                        <td class="center">1</td>
+                        <td>Rs. 1000.00</td>
+                        <td class="center">-</td>
+                        <td>Rs. 1000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="center">3</td>
+                        <td>Gangig Ganesh-LED colorfull</td>
+                        <td>Default Title</td>
+                        <td class="center">1</td>
+                        <td>Rs. 1000.00</td>
+                        <td class="center">-</td>
+                        <td>Rs. 1000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="center">4</td>
+                        <td>Gangig Ganesh-LED colorfull</td>
+                        <td>Default Title</td>
+                        <td class="center">1</td>
+                        <td>Rs. 1000.00</td>
+                        <td class="center">-</td>
+                        <td>Rs. 1000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="center">5</td>
+                        <td>Gangig Ganesh-LED colorfull</td>
+                        <td>Default Title</td>
+                        <td class="center">1</td>
+                        <td>Rs. 1000.00</td>
+                        <td class="center">-</td>
+                        <td>Rs. 1000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="center">6</td>
+                        <td>Gangig Ganesh-LED colorfull</td>
+                        <td>Default Title</td>
+                        <td class="center">1</td>
+                        <td>Rs. 1000.00</td>
+                        <td class="center">-</td>
+                        <td>Rs. 1000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="center">7</td>
+                        <td>Gangig Ganesh-LED colorfull</td>
+                        <td>Default Title</td>
+                        <td class="center">1</td>
+                        <td>Rs. 1000.00</td>
+                        <td class="center">-</td>
+                        <td>Rs. 1000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="center">8</td>
+                        <td>Gangig Ganesh-LED colorfull</td>
+                        <td>Default Title</td>
+                        <td class="center">1</td>
+                        <td>Rs. 1000.00</td>
+                        <td class="center">-</td>
+                        <td>Rs. 1000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="center">9</td>
+                        <td>Gangig Ganesh-LED colorfull</td>
+                        <td>Default Title</td>
+                        <td class="center">1</td>
+                        <td>Rs. 1000.00</td>
+                        <td class="center">-</td>
+                        <td>Rs. 1000.00</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </tbody>
+</body>
+
+</html>
